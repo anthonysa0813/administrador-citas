@@ -1,0 +1,9 @@
+.container-card {
+  max-width: 100%;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: aliceblue;
+  color: rgba(34, 34, 34, 0.712);
+  display: flex;
+  flex-direction: column;
+}
