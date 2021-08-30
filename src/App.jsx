@@ -38,10 +38,10 @@ function App() {
     <div className="container">
       <h1 className="text-center mt-4">Administrador de Citas</h1>
       <div className="row mt-3">
-        <div className="col">
+        <div className="col col-lg-6 col-md-6 col-12">
           <Formulario crearCitas={crearCitas} />
         </div>
-        <div className="col">
+        <div className="col col-lg-6 col-md-6 col-12 mt-2">
           <h2 className="text-center">{titulo}</h2>
           {citas.map((cita) => (
             <Cita key={cita.uid} cita={cita} eliminarCita={eliminarCita} />
